@@ -1,0 +1,260 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+/*navbar section.....*/
+#navbar{
+    background-color: #001253;
+    display: flex;
+    align-items: center;  
+    padding:16px 16px 16px 16px;
+    
+}
+
+
+.logo-img img{
+    height: 140px;
+    
+}
+
+ul{
+    display: flex;
+    margin-left:600px ;
+}
+ul li{
+    list-style:none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a{
+    display: block;
+    color:white;
+    margin-left:20px;
+    padding:4px 4px 4px 4px ;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar ul li a:hover{
+    color: rgb(145, 222, 228);
+}
+/*Home section........*/
+.home {
+    background-color:#001253;
+   display: flex;
+   color:white;
+   padding:2px 40px 40px 40px;
+   
+}
+.home h1{
+    font-size:50px;
+    font-family:cursive;
+    line-height: 80px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.home p{
+    line-height: 30px;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.btn{ 
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    height: 50px;
+    width: 147px;
+    border-radius: 6px;
+    border-color:white;
+    display: block;
+    margin: auto; 
+    cursor: pointer;
+    
+}
+.home .btn a{
+    background-color:transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #2146C7;
+}
+/* delivery-section process.......*/
+
+section{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.delivery-process{
+    display: flex;
+    margin:50px 0 50px 22px;
+}
+.delivery-process div{
+    background-color: #EEF1FF;
+    border: 2px solid #7895B2;
+    border-radius: 20px;
+height:300px;
+width:400px;
+margin:20px 50px 50px  10px;
+}
+.delivery-process div img{
+    display: block;
+    margin:auto;
+}
+.delivery-process div p{
+    color: #00125380;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 0px;
+ }
+
+.delivery-process h3{
+    text-align: center;
+    line-height: 0px;
+    color: #001253;
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+/*Milk Product Section......*/
+.product{
+    margin:50px 0 50px 8px;
+}
+ section .product-container{  
+    display: flex;
+    margin:50px 0 50px 8px;   
+ }
+ .product h2{
+    color: #001253;
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+ }
+ .product div{
+     border: 2px solid rgb(180, 180, 214);     
+     border-radius: 4px;
+ height:420px;
+ width:300px;
+ margin:20px 20px 50px  10px;
+ overflow: hidden;
+ }
+ .product div img{
+    background-size:cover;
+     display: block;
+     margin:auto;
+ }
+ .product div p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.37);
+    text-align: center;
+    line-height: 0px;
+    padding-bottom: 26px;
+ }
+ .product h3{
+    text-align: center;
+ line-height: 0px;
+    color: #001253;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    padding: 40px 0 30px 0;
+    text-decoration: underline;
+}
+.product .btn{
+    background-color: #3476b8;
+}
+.product .btn:hover{
+    background-color: #001253;
+}
+/*guaranteed section......*/
+ .guaranteed-section .guaranteed-flex{
+    display: flex;
+    margin-left: 150px;
+ }
+ .guaranteed-section div{
+    margin-right:400px ;
+ }
+.guaranteed-section{
+    color: white;
+    padding:60px 0 50px 40px;
+    
+    background-color: #001253;   
+}
+.guaranteed-section h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.guaranteed-section .guaranteed-logo{
+    margin-top: 60px;
+}
+.guaranteed-section .guaranteed-logo p{
+    padding-top: 40px;
+}
+.guaranteed-section .watch p{
+    position: relative;
+    bottom: 25px;
+}
+/*contact us section.....*/ 
+.contact-us .contact{
+    border-color:white ;
+    color: white;
+    font-size:20px;
+    padding:10px 20px 10px 30px;
+  
+    background-color: #172e81;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.contact:hover{
+    background-color:#001253;
+}
+.contact-us{
+    background-color: rgba(128, 128, 128, 0.356);
+    padding:10px 0 5px 0;
+    height: 100px;
+    width:100%;
+    /*display: block;
+    margin:auto;*/
+}
+.contact-us a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #172e8191;
+    font-size: 14px;;
+  margin-right:30px;
+}
+.contact-us a:hover{
+
+    color:#001253;
+}
+.contact-us div{
+    margin:5px 0 0 520px;
+}
+.contact-us .lower{
+    margin-left:540px;
+    margin-top: 0;
+}
+
+.contact-us .lower p{
+ color: #001253;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.contact-us .contact a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
