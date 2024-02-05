@@ -51,5 +51,5 @@ Click the link above to explore our products, know our story, and understand our
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/supriya811106/Milk-Delivery-Farm.git
+git clone https://github.com/E2-80659-Sumedha/sumedhaMyFarm.cv.git
 cd Milk-Delivery-Farm
